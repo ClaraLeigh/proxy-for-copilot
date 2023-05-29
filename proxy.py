@@ -34,6 +34,7 @@ def request(flow: http.HTTPFlow) -> None:
         # Forward the request to the original destination
         pass
 
+# TODO: streaming doesn't seem to work yet
 def response(flow: http.HTTPFlow) -> None:
     if (flow.request.host == "api.openai.com" and
             flow.request.path == "/v1/chat/completions"):
