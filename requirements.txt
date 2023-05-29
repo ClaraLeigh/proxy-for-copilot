@@ -1,0 +1,2 @@
+mitmproxy==9.0.1
+python-dotenv==1.0.0
