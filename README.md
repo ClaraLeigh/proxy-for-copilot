@@ -1,3 +1,7 @@
+# Update 
+
+It looks like GH Chat now uses GPT4 by default, however I will leave this repo up incase someone wants to re-use it for a different use case, like using a local LLM.
+
 # Custom Proxy for GitHub Copilot Chat
 
 This custom proxy forwards HTTP requests to their original destination, except when talking to the CoPilot chat endpoints. When it finds that endpoint it modifies the request to use GPT-4 using the main openai endpoint.
